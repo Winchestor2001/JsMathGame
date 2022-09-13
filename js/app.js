@@ -100,7 +100,7 @@ function shuffleArray(array) {
 g_card2.forEach(card => {
     card.addEventListener('click', () => {
         if (Number(card.innerHTML) == correct_answer){
-            card.style.background = '#04AA6D'
+            card.style.background = '#2cf236'
             setTimeout(() => {
                 card.style.background = '#0D6EFD'
                 now_score_yes += 1;
