@@ -44,14 +44,28 @@ nav{
     .game_content{
         font-size: 18px;
     }
+    nav{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 515px) {
     .game_content{
         font-size: 15px;
     }
+    nav{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 460px) {
     .game_content{
-        font-size: 13px;
+        font-size: 12px;
+    }
+    nav{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .game_content{
+        font-size: 10px;
     }
 }
