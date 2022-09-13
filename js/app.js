@@ -110,7 +110,8 @@ g_card2.forEach(card => {
             }, 500);
         }
         else{
-            card.style.background = '#FF0000'
+            card.style.background = '#FF0000';
+            window.navigator.vibrate(800);
             setTimeout(() => {
                 card.style.background = '#0D6EFD'
                 now_score_no += 1 
