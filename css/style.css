@@ -1,0 +1,57 @@
+body{
+    overflow-y: hidden;
+}
+nav{
+    font-size: 20px;
+}
+.start_content{
+    margin: 200px auto;
+}
+.start_btn{
+    font-size: 30px;
+}
+.game_content{
+    font-size: 25px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    border-radius: 15px;
+    background: #fff;
+}
+.answers_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.g_card{
+    cursor: pointer;
+    background: #0D6EFD;
+    border-radius: 15px;
+    color: #fff;
+}
+.g_card:hover{
+    background: #1e5bb8;
+}
+.modal_window{
+    margin: 150px auto;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .game_content{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 515px) {
+    .game_content{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .game_content{
+        font-size: 13px;
+    }
+}
