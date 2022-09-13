@@ -19,6 +19,8 @@ nav{
 .question{
     border-radius: 15px;
     background: #fff;
+    padding: 20px;
+    width: 300px;
 }
 .answers_wrapper{
     display: flex;
@@ -49,23 +51,7 @@ nav{
     }
 }
 @media screen and (max-width: 515px) {
-    .game_content{
-        font-size: 15px;
-    }
     nav{
         font-size: 15px;
-    }
-}
-@media screen and (max-width: 460px) {
-    .game_content{
-        font-size: 12px;
-    }
-    nav{
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 430px) {
-    .game_content{
-        font-size: 10px;
     }
 }
